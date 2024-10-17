@@ -1,0 +1,10 @@
+.menu-lateral {
+    position: relative;
+    top: 80px; /* Ajusta según la altura del header */
+    width: 250px; /* Ajusta el ancho que prefieras */
+    background-color: #f8f9fa;
+    padding: 10px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* Añade sombra para darle profundidad */
+    height: calc(100vh - 80px); /* El alto del menú menos la altura del header */
+    overflow-y: auto; /* Permite desplazamiento si es necesario */
+}
